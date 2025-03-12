@@ -3,7 +3,7 @@ import pickle
 import string
 import sqlite3
 import nltk
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('averaged_perceptron_tagger')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
