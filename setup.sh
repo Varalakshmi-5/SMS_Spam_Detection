@@ -6,7 +6,7 @@ if [ -f requirements.txt ]; then
 fi
 
 # Download NLTK data (like 'punkt' for tokenization)
-python -c "import nltk; nltk.download('punkt')"
+python -c "import nltk; nltk.download('punkt_tab')"
 
 # You can add other NLTK resources if needed:
 # python -c "import nltk; nltk.download('stopwords')"
